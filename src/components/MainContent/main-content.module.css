@@ -1,0 +1,14 @@
+.container {
+  min-height: calc(100vh - 50px - 60px);
+  display: flex;
+  flex-direction: column;
+}
+.viewContainer {
+  flex-grow: 1;
+}
+.topButtonsContainer {
+  display: flex;
+  justify-content: flex-end;
+  grid-gap: 10px;
+  margin: 20px;
+}

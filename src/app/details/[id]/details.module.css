@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 50px - 60px - 56px);
+  flex-wrap: wrap;
+}
+.userInfo {
+  line-height: 2rem;
+  max-width: 80%;
+  line-break: anywhere;
+}
+.imageContainer {
+  margin-right: 40px;
+}
+.homeBtn {
+  padding: 10px 20px;
+  height: 56px;
+}

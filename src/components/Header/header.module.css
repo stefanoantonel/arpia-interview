@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  padding: 10px;
+  background-image: linear-gradient(90deg, #c72917, #8e2b6f);
+  align-items: center;
+  height: 50px;
+}
+.title {
+  flex-grow: 1;
+  text-transform: uppercase;
+  font-size: 1rem;
+}

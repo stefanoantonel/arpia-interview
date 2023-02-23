@@ -1,0 +1,5 @@
+# Next.js
+/.next/
+/out/
+.vscode/
+__tests__/**/*.json

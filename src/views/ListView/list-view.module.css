@@ -1,0 +1,33 @@
+.container {
+  padding: 20px 40px;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  grid-gap: 40px;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  grid-gap: 10px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  grid-gap: 20px;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
